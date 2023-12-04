@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">钱途</string>
+    <string name="month_out">本月支出</string>
+    <string name="month_in">本月收入</string>
+    <string name="month_left">本月结余</string>
 </resources>

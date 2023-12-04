@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_F3F3F3"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/item_main_listview_top_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/month_out"></TextView>
+
+        <TextView
+            android:id="@+id/item_main_listview_top_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_main_listview_top_tv1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="￥ 0"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/item_main_listview_top_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_main_listview_top_out"
+            android:text="@string/month_in"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/item_main_listview_top_allin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_main_listview_top_out"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/item_main_listview_top_tv2"
+            android:text="￥ 0"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/item_main_listview_top_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_main_listview_top_out"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/item_main_listview_top_allin"
+            android:text="@string/month_left"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/item_main_listview_top_allleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_main_listview_top_out"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/item_main_listview_top_tv3"
+            android:text="￥ 0"
+            android:textStyle="bold"></TextView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
