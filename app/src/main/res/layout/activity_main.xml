@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/main_rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/iv_list"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@mipmap/ic_list"></ImageView>
+
+        <TextView
+            android:id="@+id/tv_nowtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="2023-12-03"
+            android:textColor="@color/white"
+            android:textSize="24sp"></TextView>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/iv_wallet"
+            android:padding="5dp"
+            android:src="@mipmap/ic_chart"></ImageView>
+
+        <ImageView
+            android:id="@+id/iv_wallet"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:src="@mipmap/ic_wallet"></ImageView>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/mian_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_rl_top"
+        android:padding="5dp"
+        android:scrollbars="none">
+
+
+    </ListView>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mian_lv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/shape_btn_plus_bg"
+        android:src="@mipmap/ic_plus"></ImageButton>
+
+
+</RelativeLayout>
