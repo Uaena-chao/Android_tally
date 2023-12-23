@@ -12,14 +12,15 @@
         android:background="@color/black">
 
         <ImageView
-            android:id="@+id/iv_list"
+            android:id="@+id/main_iv_list"
             android:layout_width="55dp"
             android:layout_height="wrap_content"
             android:padding="5dp"
+            android:onClick="onClick"
             android:src="@mipmap/ic_list"></ImageView>
 
         <TextView
-            android:id="@+id/tv_nowtime"
+            android:id="@+id/main_tv_nowtime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -28,24 +29,27 @@
             android:textSize="24sp"></TextView>
 
         <ImageView
+            android:id="@+id/main_iv_chart"
             android:layout_width="55dp"
             android:layout_height="wrap_content"
-            android:layout_toLeftOf="@id/iv_wallet"
+            android:layout_toLeftOf="@id/main_iv_wallet"
             android:padding="5dp"
+            android:onClick="onClick"
             android:src="@mipmap/ic_chart"></ImageView>
 
         <ImageView
-            android:id="@+id/iv_wallet"
+            android:id="@+id/main_iv_wallet"
             android:layout_width="55dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:padding="5dp"
+            android:onClick="onClick"
             android:src="@mipmap/ic_wallet"></ImageView>
 
     </RelativeLayout>
 
     <ListView
-        android:id="@+id/mian_lv"
+        android:id="@+id/main_lv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/main_rl_top"
@@ -57,16 +61,20 @@
 
 
     <ImageButton
+        android:id="@+id/main_ib_plusone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/mian_lv"
+        android:layout_alignBottom="@+id/main_lv"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/shape_btn_plus_bg"
-        android:src="@mipmap/ic_plus"></ImageButton>
+        android:onClick="onClick"
+        android:src="@mipmap/ic_plus">
+
+    </ImageButton>
 
 
 </RelativeLayout>

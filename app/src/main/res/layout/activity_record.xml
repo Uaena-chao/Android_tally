@@ -15,10 +15,13 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
-            android:src="@mipmap/ih_error"></ImageView>
+            android:onClick="onClick"
+            android:src="@mipmap/ih_error">
+
+        </ImageView>
 
         <com.google.android.material.tabs.TabLayout
-            android:id="@+id/recor_iv_tabs"
+            android:id="@+id/record_iv_tabs"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"

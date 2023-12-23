@@ -6,24 +6,27 @@ import com.example.qiantu_z.db.TypeBean;
 
 import java.util.List;
 
-public class OutcomeFragment extends BaseRecordFragment {
+/**
+ * 记录界面的收入模块
+ */
+public class IncomeFragment extends BaseRecordFragment {
+
 
     public void loadDataToGv() {
         super.loadDataToGv();
         //获取数据库当中的数据源
-        List<TypeBean> outlist = DBManager.getTypeList(0);
-        typeList.addAll(outlist);
+        List<TypeBean> inlist = DBManager.getTypeList(1);
+        typeList.addAll(inlist);
         adapter.notifyDataSetChanged();
         typeTv.setText("其他");
-        typeIv.setImageResource(R.mipmap.ic_qita);
+        typeIv.setImageResource(R.mipmap.in_qt);
 
     }
 
     @Override
     public void saveAccountToDB() {
-        accountBean.setKind(0);
+        accountBean.setKind(1);
         DBManager.insertItemtoAccounttb(accountBean);
-
     }
 
 }
