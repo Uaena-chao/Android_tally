@@ -39,13 +39,13 @@
     <Row>
         <Key
             android:codes="55"
-            android:keyLabel="1"></Key>
+            android:keyLabel="7"></Key>
         <Key
             android:codes="56"
-            android:keyLabel="2"></Key>
+            android:keyLabel="8"></Key>
         <Key
             android:codes="57"
-            android:keyLabel="3"></Key>
+            android:keyLabel="9"></Key>
     </Row>
 
     <Row>

@@ -6,12 +6,20 @@
         <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/drawable/main_btn_plus_bg.xml" value="0.129" />
         <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/drawable/shape_btn_plus_bg.xml" value="0.129" />
+        <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/activity_chart.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/activity_empt.xml" value="0.2755208333333333" />
         <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/activity_record.xml" value="0.1" />
+        <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/activity_setting.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/fragment_income_chart.xml" value="0.2755208333333333" />
         <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/fragment_outcome.xml" value="0.1" />
+        <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/fragment_outcome_chart.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/item_chartfrag_lv.xml" value="0.1" />
+        <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/item_chartfrag_top.xml" value="0.2755208333333333" />
         <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/item_main_listview.xml" value="0.18857142857142858" />
         <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/item_main_listview_top.xml" value="0.1" />
         <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/item_recordfrag_gv.xml" value="0.14285714285714285" />
+        <entry key="..\:/Users/Kingb/AndroidStudioProjects/qiantu_z/app/src/main/res/layout/yearandmonth_select.xml" value="0.18857142857142858" />
       </map>
     </option>
   </component>

@@ -1,8 +1,15 @@
 <resources>
-    <string name="app_name">钱途</string>
+    <string name="app_name">简易记账本</string>
     <string name="month_out">本月支出</string>
     <string name="month_in">本月收入</string>
     <string name="month_left">本月结余</string>
+    <string name="day_out">今日支出</string>
+    <string name="day_in">今日收入</string>
+    <string name="clearall">清空所有记录</string>
+    <string name="setting">设置</string>
+    <string name="chart_info">账单详情</string>
+    <string name="out">支出</string>
+    <string name="in">收入</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -129,6 +129,7 @@ public abstract class BaseRecordFragment extends Fragment {
         typeGv = view.findViewById(R.id.frag_record_gv);
         beizhutv = view.findViewById(R.id.frag_record_tv_mark);
 
+
         //让自定义键盘显示出来
         KeyBoardUtils boardUtils = new KeyBoardUtils(keyboardView, moneyEt);
         boardUtils.showKeyboard();
@@ -157,11 +158,12 @@ public abstract class BaseRecordFragment extends Fragment {
         beizhutv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText bz = new EditText(getContext());
+                EditText bz;
+                bz = new EditText(getContext());
                 bz.setInputType(InputType.TYPE_CLASS_TEXT);
                 bz.setHint("请输入备注");
-                new AlertDialog.Builder(getContext())
-                        .setTitle("添加备注")
+                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+                builder.setTitle("添加备注")
                         .setView(bz)
                         .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                             @Override
@@ -221,7 +223,7 @@ public abstract class BaseRecordFragment extends Fragment {
                         accountBean.setDay(dayOfMonth);
                         tpd.show();
                     }
-                }, Integer.parseInt(yearStr), Integer.parseInt(monthStr), Integer.parseInt(dayStr));
+                }, Integer.parseInt(yearStr), (Integer.parseInt(monthStr) - 1), Integer.parseInt(dayStr));
                 dpd.show();
 
             }
