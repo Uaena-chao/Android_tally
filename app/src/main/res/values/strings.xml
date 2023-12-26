@@ -1,4 +1,5 @@
 <resources>
+    <string name="auther">written by zyc</string>
     <string name="app_name">简易记账本</string>
     <string name="month_out">本月支出</string>
     <string name="month_in">本月收入</string>
